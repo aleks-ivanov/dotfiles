@@ -16,7 +16,10 @@
     "tabnine.tabnine-vscode",
     "redhat.vscode-yaml",
     "eamodio.gitlens",
-    "ms-dotnettools.csharp"
+    "ms-dotnettools.csharp",
+    "vscode-icons-team.vscode-icons",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "jmrog.vscode-nuget-package-manager"
   ],
   "postCreateCommand": "curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs"
 }
