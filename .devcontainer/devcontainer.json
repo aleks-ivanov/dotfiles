@@ -1,0 +1,21 @@
+{
+  "name": "The Ultimate C# DevContainer",
+  "image": "mcr.microsoft.com/vscode/devcontainers/dotnet",
+  "settings": {
+    "editor.renderWhitespace": "trailing"
+  },
+  "extensions": [
+    "coenraads.bracket-pair-colorizer",
+    "editorconfig.editorconfig",
+    "cschleiden.vscode-github-actions",
+    "bierner.markdown-preview-github-styles",
+    "ms-vscode.powershell",
+    "esbenp.prettier-vscode",
+    "ms-vscode-remote.remote-wsl",
+    "ban.spellright",
+    "tabnine.tabnine-vscode",
+    "redhat.vscode-yaml",
+    "eamodio.gitlens"
+  ],
+  "postCreateCommand": "curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs"
+}
