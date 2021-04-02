@@ -1,6 +1,5 @@
 {
   "name": "The Ultimate C# DevContainer",
-  "image": "mcr.microsoft.com/vscode/devcontainers/dotnet",
   "settings": {
     "editor.renderWhitespace": "trailing"
   },
